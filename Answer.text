@@ -1,0 +1,29 @@
+Name of this Project?
+A: Readme
+
+Author of this Project?
+A: George Cheng
+
+GitHub username?
+A: opticsl8b
+
+Your email address? 
+A: unipisq@gmail.com
+
+Description of the project 
+A command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
+
+Description of the installation instructions? 
+A: simply enter npm install
+
+How to use the application? 
+A: enter node .\script.js
+
+Please select a license 
+MIT       
+
+How to contribute to the project? 
+A: via Email
+
+How do you test the project? 
+A: by using the node function
