@@ -48,7 +48,7 @@ Open the terminal and run the command 'node .\App\index.js'</p>
 <h2 align="center">- Video Demo -</h2>
 <br>
 
-<a src="https://drive.google.com/file/d/1-41HpDpJc58TXw_DoWUsKg0bXF_v0Wj8/view">Video-Demo</a>
+[Video-Demo](https://drive.google.com/file/d/1-41HpDpJc58TXw_DoWUsKg0bXF_v0Wj8/view)
 
 <br>
 
@@ -59,7 +59,7 @@ Open the terminal and run the command 'node .\App\index.js'</p>
 <h3 align="center">- Example ReadMe -</h3>
 <br>
 
-<a src="https://github.com/opticsl8b/README-Generator/blob/main/output/README.md">Example ReadMe</a>
+[Example ReadMe](https://github.com/opticsl8b/README-Generator/blob/main/output/README.md)
 
 <br>
 <hr>
