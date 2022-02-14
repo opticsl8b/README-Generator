@@ -21,13 +21,13 @@ function licenseHeadsup(license) {
 }
 
 // TODO: Function generates markdown for README
-function generateMarkdown(project, license, description, installation, usage, contribute, tests, github, email, author) {
+function generateMarkdown(project, license, description, installation, usage, contribute, tests, github, email, author, licenseInfo) {
     return `
 ## Description
 
 <h3 align="center">-- ${project} --</h3>
 
-![License](https://img.shields.io/badge/Lisence-${license}-orange)
+![License](https://img.shields.io/badge/Lisence-${license.split(' ').join('%20')}-orange)
    
   
   |  Table of Contents |
@@ -35,44 +35,44 @@ function generateMarkdown(project, license, description, installation, usage, co
   | [1. Description.](#description)|
   | [2. Installation.](#installation) |
   | [3. Usage.](#usage)|
-  | [4. License.](#licenses)|
-  | [5. Contributing.](#contributing)|
-  | [6. Tests.](#tests)|
-  | [7. Questions.](#questions)|
-    
-  
+  | [4. Contributing.](#contributing)|
+  | [5. Tests.](#tests)|
+  | [6. Github-URL.](#github-url)|
+  | [7. Email.](#email)|
+  | [8. Author.](#author)|
+  | [9. LicenseDetail.](#author)|
 
-  <p align="center">${description}</p>
+
+
+  <p align="center">${description}</p><br><hr><hr>
 
   ## Installation
 
-  <p align="center">${installation}</p>
+  <p align="center">${installation}</p><br><hr><hr>
 
   ## Usage
   
-  <p align="center">${usage}</p>
-
-  ## License
-  
-  <p align="center">${license}</p>
+  <p align="center">${usage}</p><br><hr><hr>
 
   ## Contributing
 
-  <p align="center">${contribute}</p>
+  <p align="center">${contribute}</p><br><hr><hr>
 
   ## Tests
 
-  <p align="center">${tests}</p>
+  <p align="center">${tests}</p><br><hr><hr>
 
-  ## Questions
+  ## Github-URL
+  [https://github.com/${github}](https://github.com/${github})<br><hr><hr>
   
-  ### 7.1 Webpage URL
-  [Github-URL](https://github.com/${github})
-  
-  ### 7.2 Email
-  <p align="center">${email}</p>
-  ### End
-  <p align="center">${author}</p>
+  ## Email
+  <p align="center">${email}</p><br><hr><hr>
+
+  ## Author
+  <p align="center">${author}</p><br><hr><hr>
+
+  ## LicenseDetail 
+  <p align="center">${licenseInfo}</p><br><hr><hr>
 `;
 }
 
